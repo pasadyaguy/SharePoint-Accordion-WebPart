@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "accordion-webpart",
+    "libraryId": "4974b249-d163-41e6-9d84-6507fdafb384",
+    "environment": "spo"
+  }
+}
