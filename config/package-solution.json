@@ -1,7 +1,7 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "accordion-webpart-client-side-solution",
+    "name": "Accordion",
     "id": "4974b249-d163-41e6-9d84-6507fdafb384",
     "version": "1.0.0.0",
     "includeClientSideAssets": true
