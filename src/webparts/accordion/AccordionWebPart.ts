@@ -1,4 +1,3 @@
-import { Version } from "@microsoft/sp-core-library";
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
@@ -6,24 +5,20 @@ import {
   IPropertyPaneDropdownOption,
   PropertyPaneDropdown
 } from "@microsoft/sp-webpart-base";
-import { escape } from "@microsoft/sp-lodash-subset";
 import {
   SPHttpClient,
   SPHttpClientResponse
 } from "@microsoft/sp-http";
 import {
   Environment,
-  EnvironmentType
+  EnvironmentType,
+  Version
 } from "@microsoft/sp-core-library";
-
-import AccordionTemplate from "./AccordionTemplate";
-import styles from "./AccordionWebPart.module.scss";
 import * as strings from "AccordionWebPartStrings";
 import * as jQuery from "jquery";
 import "jqueryui";
 import  { SPComponentLoader } from "@microsoft/sp-loader";
 import MockHttpClient from "./MockHttpClient";
-import { IODataList } from "@microsoft/sp-odata-types";
 
 export interface ISPLists {
   value: ISPList[];
